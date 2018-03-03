@@ -4,10 +4,15 @@ using System.IO;
 
 namespace TeleprompterConsole
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var lines = ReadFrom("SampleQuotes.txt");
+            foreach (var line in lines)
+            {
+                Console.WriteLine(line);
+            }
         }
 
         //Read and echo the file sampleQuotes.txt
