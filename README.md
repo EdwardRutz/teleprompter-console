@@ -2,6 +2,7 @@
 
 A C# .NET Core tele-prompter console application which reads a text file and scrolls it to the console.
 - based on this [MS tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-teleprompter)
+- See code comments in [Program.cs](Program.cs)
 
 ## WIP
 - Sprint 1
