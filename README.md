@@ -3,6 +3,9 @@
 A C# .NET Core tele-prompter console application which reads a text file and scrolls it to the console.
 - based on this [MS tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-teleprompter)
 
+## WIP
+- Sprint 1
+
 ---------------------------------------------------------------
 
 ## Overview
@@ -19,11 +22,11 @@ A C# .NET Core tele-prompter console application which reads a text file and scr
 
 ## Setup and Run
 
-- Speed up or slow down text by pressing `<` or `>`
+- Clone repo and open the teleprompter-console directory
+- Type `dotnet restore` to install dependencies use the NuGet .NET package manager
+- Type: `dotnet run` to build and run the program
+- Controls:  Speed up or slow down text by pressing `<` or `>`
 Build and Run
-
-- To add dependencies to the app type: `dotnet restore`
-- To build and run the app type: `dotnet run`
 
 
 
